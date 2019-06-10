@@ -10,15 +10,12 @@ import UIKit
 
 class SignUpViewController: UIViewController {
     
-    
     @IBOutlet weak var nameTextField: UITextField!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-    
     
     // MARK: - Navigation
     
@@ -26,7 +23,6 @@ class SignUpViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        
         
         //        Identifier: Makes sure the identifier matches the expected segue
         if segue.identifier == "toWelcomeVC" {
@@ -40,6 +36,5 @@ class SignUpViewController: UIViewController {
                 destination.nameToWelcome = nameToSend
             }
         }
-        
     }
 }
