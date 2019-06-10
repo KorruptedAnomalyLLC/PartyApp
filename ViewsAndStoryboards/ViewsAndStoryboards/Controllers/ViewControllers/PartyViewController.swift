@@ -21,13 +21,10 @@ class PartyViewController: UIViewController {
         self.view.backgroundColor = UIColor.green
     }
 
-
     @IBAction func letsPartyTouchedOutside(_ sender: Any) {
         //        change background color
         self.view.backgroundColor = UIColor.purple
     }
-    
-    
 
     @IBAction func letsPartyDragInside(_ sender: Any) {
         //        change background color

@@ -144,7 +144,7 @@
                                 <rect key="frame" x="180" y="401" width="54" height="30"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="irf-9c-wvy" kind="show" id="NHy-iQ-mw9"/>
+                                    <segue destination="irf-9c-wvy" kind="show" identifier="toWelcomeVC" id="NHy-iQ-mw9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -158,6 +158,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Dad-j0-gCw"/>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="5ac-yI-Swd" id="psR-07-tW2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lel-3B-hy0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -185,6 +188,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WwL-1p-c5V"/>
                     </view>
+                    <connections>
+                        <outlet property="welcomeLabel" destination="Ep6-Vh-EpU" id="nFv-SO-Gvv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4jg-CX-4aE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
